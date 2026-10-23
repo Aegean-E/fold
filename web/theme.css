@@ -1,0 +1,98 @@
+/*
+ * Every colour, font and type token Fold uses.
+ *
+ * app.css carries layout only and reads these tokens, so a literal colour or font
+ * declaration anywhere else in web/ is a style-drift finding under the UI contract.
+ */
+
+:root {
+  color-scheme: light;
+  --font-sans: "Segoe UI", "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  --font-display: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --weight-regular: 400;
+  --weight-medium: 550;
+  --weight-bold: 700;
+  --text-2xs: 0.68rem;
+  --text-xs: 0.76rem;
+  --text-sm: 0.88rem;
+  --text-md: 1rem;
+  --text-lg: 1.18rem;
+  --text-xl: 1.55rem;
+  --text-score: clamp(1.5rem, 4vw, 2.1rem);
+  --text-tile: clamp(1.15rem, 4.4vw, 2rem);
+  --text-display: clamp(4.2rem, 14vw, 8.4rem);
+  --text-display-sm: clamp(3.4rem, 18vw, 5.2rem);
+  --paper: #f3ede2;
+  --paper-soft: #faf6ed;
+  --surface: #fffaf1;
+  --surface-raised: #fffdf8;
+  --ink: #2e2822;
+  --muted: #776b5d;
+  --line: rgba(46, 40, 34, 0.12);
+  --accent: #b8552b;
+  --accent-strong: #8f3d1c;
+  --accent-ink: #fff8ef;
+  --accent-soft: rgba(184, 85, 43, 0.12);
+  --glow-a: rgba(210, 154, 99, 0.26);
+  --glow-b: rgba(120, 144, 112, 0.16);
+  --shadow: 0 28px 70px rgba(59, 46, 33, 0.16);
+  --shadow-soft: 0 10px 28px rgba(59, 46, 33, 0.09);
+  --focus-ring: #2f6f6a;
+  --tile-empty: rgba(46, 40, 34, 0.065);
+  --overlay: rgba(250, 246, 237, 0.78);
+  --tile-2-bg: #eee3cf;
+  --tile-2-ink: #4c4237;
+  --tile-4-bg: #e8d4b5;
+  --tile-4-ink: #4c3d2d;
+  --tile-8-bg: #dfb783;
+  --tile-8-ink: #4a321d;
+  --tile-16-bg: #d49c62;
+  --tile-16-ink: #3f2815;
+  --tile-32-bg: #c77d49;
+  --tile-32-ink: #fff6ea;
+  --tile-64-bg: #b86135;
+  --tile-64-ink: #fff4e7;
+  --tile-128-bg: #a54d2c;
+  --tile-128-ink: #fff1e1;
+  --tile-256-bg: #8d3c26;
+  --tile-256-ink: #ffeeda;
+  --tile-512-bg: #74301f;
+  --tile-512-ink: #ffe8d0;
+  --tile-1024-bg: #58251a;
+  --tile-1024-ink: #ffd9ae;
+  --tile-2048-bg: #2d2520;
+  --tile-2048-ink: #f6c77d;
+  --tile-super-bg: #1f1a17;
+  --tile-super-ink: #ffd9a0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #1c1916;
+    --paper-soft: #24201c;
+    --surface: #2a2520;
+    --surface-raised: #322b25;
+    --ink: #f2e8d9;
+    --muted: #b8a897;
+    --line: rgba(242, 232, 217, 0.14);
+    --accent: #d4784b;
+    --accent-strong: #e89a6f;
+    --accent-ink: #201610;
+    --accent-soft: rgba(212, 120, 75, 0.16);
+    --glow-a: rgba(212, 120, 75, 0.18);
+    --glow-b: rgba(112, 145, 123, 0.14);
+    --shadow: 0 28px 70px rgba(0, 0, 0, 0.45);
+    --shadow-soft: 0 10px 28px rgba(0, 0, 0, 0.3);
+    --focus-ring: #7fc7bd;
+    --tile-empty: rgba(242, 232, 217, 0.08);
+    --overlay: rgba(28, 25, 22, 0.82);
+  }
+}
+
+button,
+output {
+  font-family: var(--font-sans);
+  font-size: var(--text-md);
+  font-weight: var(--weight-medium);
+}

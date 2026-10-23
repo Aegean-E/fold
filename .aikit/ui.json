@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "surfaces": {
+    "web": {
+      "paths": [
+        "web/**"
+      ]
+    }
+  },
+  "protected": [
+    "tests/**",
+    "fold/**",
+    "tools/**",
+    "run.py",
+    "play.bat",
+    "play.command",
+    "play.sh",
+    "start.bat",
+    "start.command",
+    "start.sh",
+    "README.md",
+    ".aikit/**"
+  ],
+  "commands": {
+    "fast": "python -m unittest discover -s tests -t .",
+    "snapshot": "python tools/ui_inventory.py"
+  },
+  "style": {
+    "theme_paths": [
+      "web/theme.css",
+      "web/favicon.svg"
+    ]
+  },
+  "limits": {
+    "max_files": 12,
+    "max_lines": 300
+  }
+}

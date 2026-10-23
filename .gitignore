@@ -5,4 +5,6 @@
 .aikit/*.corrupt_*
 __pycache__/
 *.py[cod]
+.pytest_cache/
 node_modules/
+.aikit/*.log

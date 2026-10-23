@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fold - a tile merge game</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="theme.css">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <div class="wordmark">
+      <p class="eyebrow" id="eyebrow">a small tile-merge game</p>
+      <h1 class="title">fold</h1>
+      <p class="tagline">Slide the grid, join matching tiles, and reach <span class="nowrap">2048</span>.</p>
+    </div>
+    <div class="scores" aria-label="game scores">
+      <div class="score-card">
+        <span class="score-label">score</span>
+        <output class="score-value" id="score">0</output>
+      </div>
+      <div class="score-card score-card--best">
+        <span class="score-label">best</span>
+        <output class="score-value" id="best">0</output>
+      </div>
+      <div class="score-card score-card--moves">
+        <span class="score-label">moves</span>
+        <output class="score-value" id="moves">0</output>
+      </div>
+    </div>
+  </header>
+
+  <section class="game" aria-labelledby="board-heading">
+    <h2 class="visually-hidden" id="board-heading">Game board</h2>
+    <div class="board-frame">
+      <div class="board" id="board" role="grid" aria-label="4 by 4 tile board" aria-busy="false"></div>
+      <div class="overlay" id="overlay" hidden>
+        <div class="overlay-card">
+          <p class="overlay-kicker" id="overlay-kicker">milestone</p>
+          <h3 class="overlay-title" id="overlay-title">2048 reached</h3>
+          <p class="overlay-copy" id="overlay-copy">The grid bends to you.</p>
+          <div class="overlay-actions">
+            <button class="button button--primary" id="overlay-new" data-action="new" type="button">New game</button>
+            <button class="button button--quiet" id="keep-going" data-action="continue" type="button">Keep going</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="game-bar">
+      <div class="controls">
+        <button class="button button--primary" id="new-game" data-action="new" type="button">New game</button>
+        <button class="button" id="undo" data-action="undo" type="button" disabled>Undo</button>
+      </div>
+      <p class="hint" id="hint">Arrows / WASD to slide - swipe on touch</p>
+    </div>
+  </section>
+
+  <p class="status" id="status" role="status" aria-live="polite">A new grid is ready.</p>
+
+  <footer class="footer">
+    <p>One local Python process. No account, no network calls.</p>
+    <p class="footer-mark" aria-hidden="true">2 · 4 · 8 · 16 · 32 · 64 · 128 · 256 · 512 · 1024 · 2048</p>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
