@@ -2,10 +2,11 @@
   "version": 1,
   "active_task": {
     "task_id": "fold-tile-merge-v1",
-    "last_phase": "phase 4",
-    "active_phase": 4,
-    "status": "in_progress",
-    "updated_at": 1792774650.303818
+    "last_phase": "phase 5",
+    "active_phase": 5,
+    "status": "completed",
+    "updated_at": 1792774876.4322515,
+    "completed_at": 1792774883.9002073
   },
   "checkpoints": [
     {
@@ -123,6 +124,30 @@
       "status": "in_progress",
       "timestamp": 1792774650.303818,
       "timestamp_str": "2026-10-23 19:57:30"
+    },
+    {
+      "task_id": "fold-tile-merge-v1",
+      "phase": "phase 5",
+      "phase_num": 5,
+      "description": "[5/5] Delivered: commit 251bece pushed to private https://github.com/Aegean-E/fold.git; 46 tests, 5/5 strict gates, secrets clean; checklists: passed",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1792774876.4322515,
+      "timestamp_str": "2026-10-23 20:01:16",
+      "handoff": {
+        "state": "delivered",
+        "next": "none",
+        "evidence": "46 tests, 5/5 gates, remote origin/Aegean-E/fold"
+      }
+    },
+    {
+      "task_id": "fold-tile-merge-v1",
+      "phase": "completed",
+      "phase_num": 5,
+      "description": "Task 'fold-tile-merge-v1' completed successfully.",
+      "status": "completed",
+      "timestamp": 1792774883.9002092,
+      "timestamp_str": "2026-10-23 20:01:23"
     }
   ]
 }
