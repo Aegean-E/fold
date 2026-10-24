@@ -1,5 +1,7 @@
 # fold
 
+[![Built with AIKit](https://img.shields.io/badge/built%20with-AIKit-6f42c1)](https://github.com/Aegean-E/AIKit)
+
 A small 4x4 tile-merge game you run on your own machine: one Python process, a browser
 page, no third-party dependencies, no account and no network calls. Slide the grid, join
 matching tiles, and chase 2048. The server owns the rules; the browser only renders the
