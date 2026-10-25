@@ -79,6 +79,8 @@ fold/
 │   └── test_launchers.py     <- one-click launchers and CRLF safety
 ├── .gitignore                <- bytecode, caches and dogfood logs
 ├── README.md
+├── COMMERCIAL.md
+├── LICENSE
 └── .aikit/                   <- this project's memory: record, ledger, decisions
 ```
 
