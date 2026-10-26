@@ -160,8 +160,6 @@ actions, roles, live regions, handlers and theme tokens rather than a screenshot
 the project declares no browser dependency. The reasoning is recorded in
 `.aikit/decisions.md`.
 
-> **License history:** versions up to and including `v1.0.0-agpl` remain available under GNU AGPL-3.0.
-
 ## 📜 License
 
 Free for personal play under the Aegean Game License 1.1 (AGL-1.1); see [LICENSE](LICENSE). It is DRM-free: Licensor ships no DRM and a distributor may not add it. Streaming, modding and free mods are allowed. Commercial use, paid mods and AI training need the Aegean Commercial License 1.0 (ACL-1.0); see [COMMERCIAL.md](COMMERCIAL.md).
