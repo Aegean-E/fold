@@ -1,7 +1,8 @@
 [project]
-license = { text = "AGPL-3.0-or-later" }
+license = "LicenseRef-AGL-1.1"
+license-files = ["LICENSE"]
 name = "fold"
-version = "1.0.0"
+version = "1.1.0"
 description = "A small 4x4 tile-merge game with a local browser surface."
 requires-python = ">=3.9"
 dependencies = []

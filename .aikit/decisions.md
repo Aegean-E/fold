@@ -39,3 +39,9 @@ contract, a dependency, a data format or the architecture; IDs are consecutive a
 - **Context**: A previous local server process can keep port 8765 open for hours. Fold's old default collided with it, so opening `http://127.0.0.1:8765` showed that other application instead of the game, and the browser had no way to tell the difference.
 - **Decision**: `DEFAULT_PORT` is `8766`. The port stays fixed, so the browser's local-storage best score remains on one origin, and `--port` still accepts any free port from 1 to 65535.
 - **Consequences**: One-click launchers open Fold without a collision when the other local tool owns 8765. A second Fold instance on 8766 exits with a Why/Fix message instead of opening a different page; the same message appears for any other occupied port.
+
+## Licensing migration (v1.0.0-agpl)
+
+- New versions use the Aegean Game License 1.1 (AGL-1.1); versions up to and including `v1.0.0-agpl` remain under GNU AGPL-3.0.
+- Rights holder: AegeanWorks; commercial use under ACL-1.0.
+- Counsel review of the 1.1 texts remains pending.

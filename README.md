@@ -1,6 +1,6 @@
 # fold
 
-[![Built with AIKit](https://img.shields.io/badge/built%20with-AIKit-6f42c1)](https://github.com/Aegean-E/AIKit)
+[![Built with AIKit](https://img.shields.io/badge/built%20with-AIKit-6f42c1)](https://github.com/AegeanWorks/AIKit)
 
 A small 4x4 tile-merge game you run on your own machine: one Python process, a browser
 page, no third-party dependencies, no account and no network calls. Slide the grid, join
@@ -81,6 +81,9 @@ fold/
 ├── README.md
 ├── COMMERCIAL.md
 ├── LICENSE
+├── LICENSES/                 <- REUSE license texts
+├── REUSE.toml                <- Machine-readable SPDX metadata
+├── ASSETS.md                 <- Asset/data manifest: what the license covers
 └── .aikit/                   <- this project's memory: record, ledger, decisions
 ```
 
@@ -156,3 +159,9 @@ resource policy. The snapshot proof is a parsed inventory of ids,
 actions, roles, live regions, handlers and theme tokens rather than a screenshot, because
 the project declares no browser dependency. The reasoning is recorded in
 `.aikit/decisions.md`.
+
+> **License history:** versions up to and including `v1.0.0-agpl` remain available under GNU AGPL-3.0.
+
+## 📜 License
+
+Free for personal play under the Aegean Game License 1.1 (AGL-1.1); see [LICENSE](LICENSE). It is DRM-free: Licensor ships no DRM and a distributor may not add it. Streaming, modding and free mods are allowed. Commercial use, paid mods and AI training need the Aegean Commercial License 1.0 (ACL-1.0); see [COMMERCIAL.md](COMMERCIAL.md).
