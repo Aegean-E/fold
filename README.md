@@ -1,7 +1,7 @@
 # fold
 
 <!-- aegean:media:start -->
-<p align="center"><img src="assets/logo.png" alt="Fold logo" width="96" height="96"></p>
+<p align="center"><img src="assets/logo.jpg" alt="Fold logo" width="96" height="96"></p>
 <p align="center"><img src="assets/social-preview.png" alt="Fold social preview" width="100%"></p>
 <!-- aegean:media:end -->
 
