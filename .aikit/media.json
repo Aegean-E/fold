@@ -17,35 +17,35 @@
       "path": "assets/logo.png",
       "status": "approved",
       "commit": "",
-      "generated_at": "2026-10-28T11:43:18",
+      "generated_at": "2026-10-28T13:53:37",
       "review": {
         "status": "approved",
-        "reviewer": "subagent:vision-review",
+        "reviewer": "subagent:brand-review",
         "method": "vision",
-        "notes": "Monogram FO matches project; legible small, unclipped, no overlaps/watermark, premium.",
+        "notes": "Monogram FO (first two letters) in cyan badge; eyebrow GAME; title Fold in title case, single line, clean hierarchy, no clipping. Abstract folded geometric paper background directly represents folding puzzle game. Premium dark aesthetic. No AEGEANWORKS footer.",
         "score": 90,
-        "reviewed_at": "2026-10-28T11:49:29"
+        "reviewed_at": "2026-10-28T14:00:01"
       }
     },
     "social_preview": {
       "path": "assets/social-preview.png",
       "status": "approved",
       "commit": "",
-      "generated_at": "2026-10-28T11:43:18",
+      "generated_at": "2026-10-28T13:53:37",
       "review": {
         "status": "approved",
-        "reviewer": "subagent:vision-review",
+        "reviewer": "subagent:brand-review",
         "method": "vision",
-        "notes": "Strong hierarchy; legible, unclipped; premium card, no watermark.",
-        "score": 89,
-        "reviewed_at": "2026-10-28T11:49:29"
+        "notes": "Clean origami-fold geometry background; title/tagline/chips and github.com/AegeanWorks/Fold all legible, no clipping, consistent premium dark aesthetic.",
+        "score": 92,
+        "reviewed_at": "2026-10-28T14:00:01"
       }
     },
     "artwork": {
       "path": "assets/artwork.jpg",
       "status": "pending_review",
       "commit": "",
-      "generated_at": "2026-10-28T11:43:18",
+      "generated_at": "2026-10-28T13:34:03",
       "review": null
     }
   },
