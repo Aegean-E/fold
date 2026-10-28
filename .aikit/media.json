@@ -14,46 +14,39 @@
   "layout": "center",
   "assets": {
     "logo": {
-      "path": "assets/logo.svg",
+      "path": "assets/logo.png",
       "status": "approved",
       "commit": "",
-      "generated_at": "2026-10-28T08:52:23",
+      "generated_at": "2026-10-28T11:43:18",
       "review": {
         "status": "approved",
         "reviewer": "subagent:vision-review",
         "method": "vision",
-        "notes": "FO pyramid, distinct",
-        "score": 89,
-        "reviewed_at": "2026-10-28T08:58:21"
+        "notes": "Monogram FO matches project; legible small, unclipped, no overlaps/watermark, premium.",
+        "score": 90,
+        "reviewed_at": "2026-10-28T11:49:29"
       }
     },
     "social_preview": {
-      "path": "assets/social-preview.svg",
+      "path": "assets/social-preview.png",
       "status": "approved",
       "commit": "",
-      "generated_at": "2026-10-28T08:52:23",
+      "generated_at": "2026-10-28T11:43:18",
       "review": {
         "status": "approved",
         "reviewer": "subagent:vision-review",
         "method": "vision",
-        "notes": "Consistent template, legible",
+        "notes": "Strong hierarchy; legible, unclipped; premium card, no watermark.",
         "score": 89,
-        "reviewed_at": "2026-10-28T08:58:21"
+        "reviewed_at": "2026-10-28T11:49:29"
       }
     },
-    "social_preview_png": {
-      "path": "assets/social-preview.png",
-      "status": "approved",
+    "artwork": {
+      "path": "assets/artwork.jpg",
+      "status": "pending_review",
       "commit": "",
-      "generated_at": "2026-10-28T08:52:24",
-      "review": {
-        "status": "approved",
-        "reviewer": "subagent:vision-review",
-        "method": "structural",
-        "notes": "Rendered from the approved 1280x640 social SVG; exact dimensions verified.",
-        "score": null,
-        "reviewed_at": "2026-10-28T09:02:18"
-      }
+      "generated_at": "2026-10-28T11:43:18",
+      "review": null
     }
   },
   "screenshots": []
