@@ -5,53 +5,48 @@
   "has_ui": true,
   "ui_kind": "web",
   "palette": [
-    "#07111f",
-    "#0e2a47",
-    "#f472b6",
-    "#e2f8ff"
+    "#0a1014",
+    "#14262e",
+    "#67e8f9",
+    "#c084fc"
   ],
+  "motif": "origami",
+  "layout": "center",
   "assets": {
     "logo": {
       "path": "assets/logo.svg",
       "status": "approved",
       "commit": "",
-      "generated_at": "2026-10-28T08:02:27",
+      "generated_at": "2026-10-28T08:52:23",
       "review": {
         "status": "approved",
         "reviewer": "subagent:vision-review",
         "method": "vision",
-        "notes": "FO monogram in magenta, dark navy, coherent aesthetic.",
-        "score": 93,
-        "reviewed_at": "2026-10-28T08:10:42"
+        "notes": "FO pyramid, distinct",
+        "score": 89,
+        "reviewed_at": "2026-10-28T08:58:21"
       }
     },
     "social_preview": {
       "path": "assets/social-preview.svg",
       "status": "approved",
       "commit": "",
-      "generated_at": "2026-10-28T08:02:27",
+      "generated_at": "2026-10-28T08:52:23",
       "review": {
         "status": "approved",
         "reviewer": "subagent:vision-review",
         "method": "vision",
-        "notes": "FO icon, title, solitaire description, WEB tag, coherent.",
-        "score": 93,
-        "reviewed_at": "2026-10-28T08:10:42"
+        "notes": "Consistent template, legible",
+        "score": 89,
+        "reviewed_at": "2026-10-28T08:58:21"
       }
     },
     "social_preview_png": {
       "path": "assets/social-preview.png",
-      "status": "approved",
+      "status": "pending_review",
       "commit": "",
-      "generated_at": "2026-10-28T08:02:28",
-      "review": {
-        "status": "approved",
-        "reviewer": "subagent:vision-review",
-        "method": "structural",
-        "notes": "Rendered from the approved 1280x640 social SVG; exact dimensions verified.",
-        "score": null,
-        "reviewed_at": "2026-10-28T08:16:33"
-      }
+      "generated_at": "2026-10-28T08:52:24",
+      "review": null
     }
   },
   "screenshots": []
