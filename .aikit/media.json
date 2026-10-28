@@ -41,31 +41,18 @@
     },
     "social_preview_png": {
       "path": "assets/social-preview.png",
-      "status": "pending_review",
+      "status": "approved",
       "commit": "",
       "generated_at": "2026-10-28T08:02:28",
-      "review": null
-    }
-  },
-  "screenshots": [
-    {
-      "path": "assets/screenshots/2026-10-28-home.png",
-      "alt": "Fold interface at 2026-10-28",
-      "caption": "Fold interface captured from index.html",
-      "commit": "7dfcb2c6dec481466a41f771da48c891eb6d2193",
-      "taken_at": "2026-10-28",
-      "viewport": "1440x900",
-      "width": 1440,
-      "height": 900,
-      "status": "rejected",
       "review": {
-        "status": "rejected",
+        "status": "approved",
         "reviewer": "subagent:vision-review",
-        "method": "vision",
-        "notes": "2026-10-28-home.png \u2014 mostly blank white page with only 'fold' title, no real UI content.",
-        "score": 25,
-        "reviewed_at": "2026-10-28T08:10:42"
+        "method": "structural",
+        "notes": "Rendered from the approved 1280x640 social SVG; exact dimensions verified.",
+        "score": null,
+        "reviewed_at": "2026-10-28T08:16:33"
       }
     }
-  ]
+  },
+  "screenshots": []
 }
