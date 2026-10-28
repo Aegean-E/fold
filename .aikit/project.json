@@ -16,6 +16,10 @@
   "ui_source": "detected",
   "topics": [
     "aikit",
+    "source-available",
+    "aegean-game-license",
+    "drm-free",
+    "commercial-license",
     "2048",
     "browser-game",
     "game",
@@ -25,16 +29,12 @@
     "web-game",
     "zero-dependencies",
     "tile-merge",
-    "drm-free",
-    "source-available",
     "aegeanworks",
     "html5-game",
     "javascript",
-    "software",
     "user-interface",
     "web-app",
-    "puzzle-game",
-    "minimalist"
+    "puzzle-game"
   ],
   "topics_source": "ai:kilo:2026-10-27",
   "topics_reviewed_at": "2026-10-28",
@@ -52,5 +52,11 @@
   ],
   "topics_choice_round4": [
     "minimalist"
+  ],
+  "license_topics": [
+    "source-available",
+    "aegean-game-license",
+    "drm-free",
+    "commercial-license"
   ]
 }
