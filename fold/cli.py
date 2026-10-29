@@ -73,6 +73,8 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 1
     host, port = server.server_address[0], server.server_address[1]
     display_host = "127.0.0.1" if host in ("0.0.0.0", "::") else host
+    if ":" in display_host and not display_host.startswith("["):
+        display_host = f"[{display_host}]"
     url = f"http://{display_host}:{port}"
     print(f"Fold is running at {url}  (Ctrl+C to stop)")
     if args.open:

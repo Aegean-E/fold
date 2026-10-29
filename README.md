@@ -88,6 +88,7 @@ fold/
 ├── LICENSES/                 <- REUSE license texts
 ├── REUSE.toml                <- Machine-readable SPDX metadata
 ├── ASSETS.md                 <- Asset/data manifest: what the license covers
+├── assets/                   <- approved brand images (logo, social preview)
 └── .aikit/                   <- this project's memory: record, ledger, decisions
 ```
 
@@ -169,6 +170,8 @@ the project declares no browser dependency. The reasoning is recorded in
 
 > **AI-Generated Brand Artwork.** The banner and logo are **AI-generated brand assets**. They are illustrative and may not literally depict every feature or the full project scope.
 <!-- aegean:brand-assets:end -->
+
+Brand imagery is all rights reserved and is not covered by AGL-1.1; see [ASSETS.md](ASSETS.md).
 
 ## 📜 License
 

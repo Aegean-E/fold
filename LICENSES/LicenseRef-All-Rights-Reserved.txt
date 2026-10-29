@@ -1,0 +1,12 @@
+AegeanWorks Brand Assets — All Rights Reserved
+LicenseRef-All-Rights-Reserved
+
+Copyright (c) 2026 AegeanWorks.
+
+These brand assets — the project logo, banner, social preview and wordmark — are trademarks
+and branding of AegeanWorks. All rights are reserved. No license is granted to copy, modify,
+redistribute, sublicense or use them except to identify this project accurately. Any other use
+needs prior written consent from AegeanWorks (aegean-licensing@proton.me).
+
+This notice covers only the brand imagery under assets/. It does not limit the rights granted
+for the project's source code and game assets under the Aegean Game License 1.1 (AGL-1.1).

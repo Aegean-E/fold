@@ -10,7 +10,7 @@
 - **Total Classes**: `18`
 - **Total Top-Level Functions**: `29`
 - **Total Class Methods**: `72`
-- **Total Source Lines**: `1283`
+- **Total Source Lines**: `1285`
 
 ---
 
@@ -51,7 +51,7 @@
 ### [`fold/cli.py`](fold/cli.py)
 > *Start Fold and print the one URL a user needs.*
 
-**Size**: `86` lines (`3461` bytes)
+**Size**: `88` lines (`3569` bytes)
 
 **Classes:**
 - `class TriadParser` - *Argparse that adds AIKit's Why/Fix triad to a bad flag (PRINCIPLE-011 R5).*

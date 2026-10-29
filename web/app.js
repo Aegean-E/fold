@@ -236,6 +236,10 @@
     }
   }, { passive: true });
 
+  board.addEventListener("touchcancel", function () {
+    touchStart = null;
+  }, { passive: true });
+
   window.fetch("/api/state", { cache: "no-store" }).then(function (response) {
     return response.json();
   }).then(render).catch(fail);

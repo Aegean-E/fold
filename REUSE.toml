@@ -5,3 +5,9 @@ path = ["**"]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 AegeanWorks"
 SPDX-License-Identifier = "LicenseRef-AGL-1.1"
+
+[[annotations]]
+path = ["assets/logo.jpg", "assets/social-preview.png"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 AegeanWorks"
+SPDX-License-Identifier = "LicenseRef-All-Rights-Reserved"

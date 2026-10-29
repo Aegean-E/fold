@@ -51,7 +51,7 @@ class FoldHandler(BaseHTTPRequestHandler):
     """Translates requests into `Game` reads and mutations."""
 
     protocol_version = "HTTP/1.1"
-    server_version = "fold/1.0"
+    server_version = "fold/1.1"
     sys_version = ""
     timeout = READ_TIMEOUT_SECONDS
     disable_nagle_algorithm = True

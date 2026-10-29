@@ -1,7 +1,7 @@
 # Aegean Commercial License (ACL-1.0) & Licensing Tiers
 
 > This project is free for personal play under the **Aegean Game License 1.1 (AGL-1.1)** in [LICENSE](LICENSE). Every commercial or
-> organizational use needs the paid **Aegean Commercial License 1.0 (ACL-1.0)**. Game assets need a separate written asset grant; see ASSETS.md.
+> organizational use needs the paid **Aegean Commercial License 1.0 (ACL-1.0)**. Game assets need a separate written asset grant; see [ASSET_POLICY.md](https://github.com/AegeanWorks/Aegean-Licensing/blob/master/licenses/ASSET_POLICY.md).
 
 ---
 
