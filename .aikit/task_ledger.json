@@ -13,37 +13,6 @@
   "checkpoints": [
     {
       "task_id": "fold-tile-merge-v1",
-      "phase": "phase 2",
-      "phase_num": 2,
-      "description": "[1/5] Plan: zero-dependency 4x4 tile-merge game with a themed browser UI under the AIKit UI contract",
-      "files_affected": [],
-      "status": "in_progress",
-      "timestamp": 1792699023.0875728,
-      "timestamp_str": "2026-10-22 22:57:03",
-      "impact_assessment": {
-        "why": "the user asked for a game project with a UI suited to AIKit; a pure-Python engine plus static web surface proves cleanly without third-party dependencies",
-        "benefits": "a playable local game, a worked example of a Python-backed UI contract with inventory and theme-token proofs, and gates that run in under a few seconds",
-        "risks": "contract: the UI surface, protected paths and snapshot command must match the real tree; dependency: standard library only, no npm or browser test runner; concurrency: one in-memory game guarded by a lock, no cross-client sessions; state: the board is session-only, so a server restart starts a new game",
-        "mitigation": "write the UI contract from the finished tree, keep engine rules pure and unit-tested, serialize every game mutation behind a lock, and document the no-persistence boundary in the README"
-      }
-    },
-    {
-      "task_id": "fold-tile-merge-v1",
-      "phase": "phase 4",
-      "phase_num": 4,
-      "description": "[5/5] Built the pure engine, threaded HTTP server, themed browser surface, UI contract with inventory and style proof, 37 tests and an 18-step dogfood; 5/5 gates pass; checklists: passed; UI begin/verify/finish and the commit are blocked because the user withheld commit authorization",
-      "files_affected": [],
-      "status": "in_progress",
-      "timestamp": 1792701344.0136058,
-      "timestamp_str": "2026-10-22 23:35:44",
-      "handoff": {
-        "state": "all source is uncommitted",
-        "next": "commit the project, then run ui begin fold --surface web, ui verify fold, and ui finish fold --reviewed",
-        "evidence": "37 tests, 5/5 gates, 18/18 dogfood, 81 inventory entries"
-      }
-    },
-    {
-      "task_id": "fold-tile-merge-v1",
       "phase": "phase 4",
       "phase_num": 4,
       "description": "[5/5] Final build: 40 tests, 5/5 gates, 18/18 dogfood, 81 inventory entries; checklists: passed; commit and UI begin/verify/finish remain blocked because the user withheld commit authorization",
@@ -262,6 +231,39 @@
       "timestamp": 1793295460.6525304,
       "timestamp_str": "2026-10-29 20:37:40",
       "agent": "opencode"
+    },
+    {
+      "task_id": "reforge:run-1",
+      "phase": "reforge stage 7",
+      "phase_num": 3,
+      "description": "Reforge stage 7: run resumed",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1793452523.3209774,
+      "timestamp_str": "2026-10-31 16:15:23",
+      "agent": "github"
+    },
+    {
+      "task_id": "reforge:run-1",
+      "phase": "reforge stage 8",
+      "phase_num": 3,
+      "description": "Reforge stage 8: window 22, 1 commit(s), 12 file(s) reviewed (unreviewed), 0 finding(s), 0 repaired",
+      "files_affected": [],
+      "status": "in_progress",
+      "timestamp": 1793452530.4124439,
+      "timestamp_str": "2026-10-31 16:15:30",
+      "agent": "github"
+    },
+    {
+      "task_id": "reforge:run-1",
+      "phase": "reforge stage 8",
+      "phase_num": 3,
+      "description": "Reforge stage 8: stage 8 host review reviewed; run completed; coverage 16/16",
+      "files_affected": [],
+      "status": "completed",
+      "timestamp": 1793452567.7598186,
+      "timestamp_str": "2026-10-31 16:16:07",
+      "agent": "github"
     }
   ]
 }
